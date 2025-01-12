@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Josefin Sans", sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    
+}
+.main{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    display: flex;
+}
+.imgoverlayright{
+    height: 80%;
+    width: 30%;
+    position:absolute;
+    padding: 0.5rem;
+    border-radius: 20px;
+    top: 16%;
+    left: 57%;
+    background-color: #fcf5e3;
+}
+.imgoverlayright > img{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+}
+.left{
+    height: 100%;
+    width: 65%;
+    padding: 1rem;
+    background-color: #fcf5e3;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 2rem 1rem;
+    justify-content: space-around;
+}
+.left .logo{
+    height: 60px;
+    width: 63px;
+    position: relative;
+}
+.left .logo > img{
+    height: 100%;
+    width: 100%;
+}
+.left > nav{
+    height: 10%;
+    width: 100%;
+}
+.navlinks{
+    display: flex;
+    gap: 50px;
+}
+.navlinks > h3{
+    font-weight: 800;
+    font-size: 18px;
+    cursor: pointer;
+}
+.navlinks > h3:hover{
+    color: #ffc300;
+}
+.overlaytext{
+    margin-top: 14%;
+    height: 60%;
+    width: 90%;
+    padding: 0 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.overlaytext > h3{
+    font-weight: 700;
+    color: #438f7b;
+}
+.overlaytext > h1{
+    width: 80%;
+    font-size:50px;
+}
+.overlaytext > h1::first-line{
+    color: #ffc300;
+    font: size 65px;
+}
+.overlaytext > p{
+    font-size: 20px;
+    font-weight: 500;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.btn .contactlinks{
+    display: flex;
+    gap: 20px;
+}
+.btn .contactlinks > i{
+    font-size: 20px;
+    color: #316154;
+    border-radius: 50%;
+    padding: 10px 10px;
+    background-color: #ffc300;
+}
+.btn .contactlinks > i:hover{
+    color: black;
+    cursor: pointer;
+}
+.overlaytext .btn > button{
+    background-color: #ffc300;
+    color: black;
+    padding: 12px 15px;
+    border: none;
+    border-radius: 20px;
+    font-weight: 800;
+    font-size: 15
+}
+.overlaytext .btn > button:hover{
+    color: #316154;
+    cursor: pointer;
+}
+
+.right{
+    height: 100%;
+    width: 35%;
+    padding: 1rem;
+    background-color: #438f7b;
+}
+.right > section{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    padding: 0 3rem;
+    align-items: center;
+    justify-content: end;
+}
+.right > section > button{
+    background-color: #ffffff;
+    color: #438f7b;
+    padding: 12px 15px;
+    font-weight: 600;
+    border: none;
+    border-radius: 20px;
+    font-size: 15px;
+}
+.right > section > button:hover{
+    color: black;
+    cursor: pointer;
+}
+
